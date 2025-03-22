@@ -84,3 +84,47 @@ footer {
 footer p {
     color: #ffffff;
 }
+
+@media (max-width: 768px) {
+    
+    header {
+        flex-direction: column;
+        padding: 16px;
+    }
+
+    nav a {
+        margin-bottom: 8px;
+    }
+
+    .info h1 {
+        font-size: 36px;
+    }
+
+    .contenitore {
+        padding: 20px;
+    }
+
+    .contenitore > div {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contenitore img {
+        width: 100%;
+        height: auto;
+        order: 1;
+    }
+
+    .contenitore h3, .contenitore p {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    footer {
+        padding: 16px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
